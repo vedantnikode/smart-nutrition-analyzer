@@ -1,0 +1,43 @@
+{
+  "source": "Adapted from ICMR-NIN Recommended Dietary Allowances for healthy adults. Values are daily targets for the nutrition analyzer.",
+  "units": {
+    "calories_kcal": "kcal",
+    "protein_g": "g",
+    "carbohydrates_g": "g",
+    "fat_g": "g",
+    "fiber_g": "g",
+    "iron_mg": "mg",
+    "calcium_mg": "mg",
+    "vitamin_c_mg": "mg",
+    "potassium_mg": "mg",
+    "sodium_mg": "mg"
+  },
+  "profiles": {
+    "male": {
+      "age_group": "18-29 years",
+      "calories_kcal": 2400,
+      "protein_g": 60,
+      "carbohydrates_g": 330,
+      "fat_g": 60,
+      "fiber_g": 30,
+      "iron_mg": 17,
+      "calcium_mg": 1000,
+      "vitamin_c_mg": 80,
+      "potassium_mg": 3500,
+      "sodium_mg": 2000
+    },
+    "female": {
+      "age_group": "18-29 years",
+      "calories_kcal": 1900,
+      "protein_g": 55,
+      "carbohydrates_g": 260,
+      "fat_g": 50,
+      "fiber_g": 25,
+      "iron_mg": 21,
+      "calcium_mg": 1000,
+      "vitamin_c_mg": 80,
+      "potassium_mg": 3500,
+      "sodium_mg": 2000
+    }
+  }
+}

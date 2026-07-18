@@ -1,0 +1,1742 @@
+[
+  {
+    "id": 1,
+    "name": "Rice",
+    "category": "Grains",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 200
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 260,
+      "protein_g": 4.8,
+      "carbohydrates_g": 56.4,
+      "fat_g": 0.6,
+      "fiber_g": 0.8,
+      "iron_mg": 0.4,
+      "calcium_mg": 20,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 70,
+      "sodium_mg": 5
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 2,
+    "name": "Jeera Rice",
+    "category": "Grains",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 200
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 265,
+      "protein_g": 4.9,
+      "carbohydrates_g": 56.6,
+      "fat_g": 1.2,
+      "fiber_g": 1.0,
+      "iron_mg": 0.5,
+      "calcium_mg": 22,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 75,
+      "sodium_mg": 120
+    },
+    "source": "Closest IFCT mapping (rice + cumin)"
+  },
+  {
+    "id": 3,
+    "name": "Veg Pulao",
+    "category": "Grains",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 200
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 290,
+      "protein_g": 5.5,
+      "carbohydrates_g": 52.0,
+      "fat_g": 6.5,
+      "fiber_g": 2.5,
+      "iron_mg": 0.8,
+      "calcium_mg": 28,
+      "vitamin_c_mg": 5,
+      "potassium_mg": 140,
+      "sodium_mg": 180
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 4,
+    "name": "Fried Rice",
+    "category": "Grains",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 200
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 320,
+      "protein_g": 6.0,
+      "carbohydrates_g": 50.0,
+      "fat_g": 9.0,
+      "fiber_g": 2.2,
+      "iron_mg": 0.9,
+      "calcium_mg": 30,
+      "vitamin_c_mg": 4,
+      "potassium_mg": 150,
+      "sodium_mg": 300
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 5,
+    "name": "Roti",
+    "category": "Grains",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 40
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 10
+    },
+    "nutrition": {
+      "calories_kcal": 120,
+      "protein_g": 3.6,
+      "carbohydrates_g": 22.0,
+      "fat_g": 1.0,
+      "fiber_g": 3.0,
+      "iron_mg": 1.0,
+      "calcium_mg": 12,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 110,
+      "sodium_mg": 3
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 6,
+    "name": "Paratha",
+    "category": "Grains",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 70
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 6
+    },
+    "nutrition": {
+      "calories_kcal": 220,
+      "protein_g": 5.0,
+      "carbohydrates_g": 28.0,
+      "fat_g": 9.0,
+      "fiber_g": 3.0,
+      "iron_mg": 1.4,
+      "calcium_mg": 18,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 130,
+      "sodium_mg": 180
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 7,
+    "name": "Poori",
+    "category": "Grains",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 30
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 8
+    },
+    "nutrition": {
+      "calories_kcal": 110,
+      "protein_g": 2.2,
+      "carbohydrates_g": 12.5,
+      "fat_g": 5.8,
+      "fiber_g": 1.0,
+      "iron_mg": 0.6,
+      "calcium_mg": 8,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 40,
+      "sodium_mg": 55
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 8,
+    "name": "Dal Tadka",
+    "category": "Pulses",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 180,
+      "protein_g": 9.0,
+      "carbohydrates_g": 22.0,
+      "fat_g": 6.0,
+      "fiber_g": 6.0,
+      "iron_mg": 2.2,
+      "calcium_mg": 38,
+      "vitamin_c_mg": 2,
+      "potassium_mg": 320,
+      "sodium_mg": 240
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 9,
+    "name": "Dal Fry",
+    "category": "Pulses",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 190,
+      "protein_g": 9.2,
+      "carbohydrates_g": 21.5,
+      "fat_g": 7.0,
+      "fiber_g": 6.2,
+      "iron_mg": 2.3,
+      "calcium_mg": 40,
+      "vitamin_c_mg": 2,
+      "potassium_mg": 330,
+      "sodium_mg": 260
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 10,
+    "name": "Rajma",
+    "category": "Pulses",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 220,
+      "protein_g": 11.0,
+      "carbohydrates_g": 30.0,
+      "fat_g": 3.0,
+      "fiber_g": 8.0,
+      "iron_mg": 3.0,
+      "calcium_mg": 50,
+      "vitamin_c_mg": 3,
+      "potassium_mg": 420,
+      "sodium_mg": 250
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 11,
+    "name": "Chole",
+    "category": "Pulses",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 230,
+      "protein_g": 10.5,
+      "carbohydrates_g": 31.0,
+      "fat_g": 4.5,
+      "fiber_g": 8.5,
+      "iron_mg": 2.8,
+      "calcium_mg": 55,
+      "vitamin_c_mg": 3,
+      "potassium_mg": 430,
+      "sodium_mg": 280
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 12,
+    "name": "Kadhi",
+    "category": "Pulses",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 160,
+      "protein_g": 6.5,
+      "carbohydrates_g": 14.0,
+      "fat_g": 8.0,
+      "fiber_g": 1.5,
+      "iron_mg": 1.0,
+      "calcium_mg": 120,
+      "vitamin_c_mg": 1,
+      "potassium_mg": 220,
+      "sodium_mg": 300
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 13,
+    "name": "Sambar",
+    "category": "Pulses",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 110,
+      "protein_g": 5.0,
+      "carbohydrates_g": 15.0,
+      "fat_g": 3.0,
+      "fiber_g": 4.0,
+      "iron_mg": 1.5,
+      "calcium_mg": 45,
+      "vitamin_c_mg": 6,
+      "potassium_mg": 250,
+      "sodium_mg": 260
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 14,
+    "name": "Mixed Veg",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 140,
+      "protein_g": 4.0,
+      "carbohydrates_g": 18.0,
+      "fat_g": 5.0,
+      "fiber_g": 5.0,
+      "iron_mg": 1.8,
+      "calcium_mg": 55,
+      "vitamin_c_mg": 15,
+      "potassium_mg": 340,
+      "sodium_mg": 220
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 15,
+    "name": "Aloo Gobi",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 150,
+      "protein_g": 4.2,
+      "carbohydrates_g": 20.0,
+      "fat_g": 5.5,
+      "fiber_g": 5.5,
+      "iron_mg": 1.5,
+      "calcium_mg": 48,
+      "vitamin_c_mg": 25,
+      "potassium_mg": 420,
+      "sodium_mg": 230
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 16,
+    "name": "Bhindi Masala",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 145,
+      "protein_g": 3.5,
+      "carbohydrates_g": 15.0,
+      "fat_g": 8.0,
+      "fiber_g": 5.2,
+      "iron_mg": 1.2,
+      "calcium_mg": 70,
+      "vitamin_c_mg": 18,
+      "potassium_mg": 340,
+      "sodium_mg": 220
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 17,
+    "name": "Palak Paneer",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 210,
+      "protein_g": 10.5,
+      "carbohydrates_g": 10.0,
+      "fat_g": 14.0,
+      "fiber_g": 3.5,
+      "iron_mg": 3.5,
+      "calcium_mg": 250,
+      "vitamin_c_mg": 18,
+      "potassium_mg": 420,
+      "sodium_mg": 300
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 18,
+    "name": "Matar Paneer",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 240,
+      "protein_g": 11.0,
+      "carbohydrates_g": 15.0,
+      "fat_g": 15.0,
+      "fiber_g": 4.0,
+      "iron_mg": 2.0,
+      "calcium_mg": 240,
+      "vitamin_c_mg": 10,
+      "potassium_mg": 360,
+      "sodium_mg": 320
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 19,
+    "name": "Paneer Butter Masala",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 320,
+      "protein_g": 12.0,
+      "carbohydrates_g": 12.0,
+      "fat_g": 26.0,
+      "fiber_g": 2.0,
+      "iron_mg": 1.5,
+      "calcium_mg": 260,
+      "vitamin_c_mg": 8,
+      "potassium_mg": 300,
+      "sodium_mg": 420
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 20,
+    "name": "Aloo Matar",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 170,
+      "protein_g": 5.0,
+      "carbohydrates_g": 24.0,
+      "fat_g": 6.0,
+      "fiber_g": 5.0,
+      "iron_mg": 1.8,
+      "calcium_mg": 45,
+      "vitamin_c_mg": 18,
+      "potassium_mg": 430,
+      "sodium_mg": 240
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 21,
+    "name": "Baingan Bharta",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 130,
+      "protein_g": 3.0,
+      "carbohydrates_g": 14.0,
+      "fat_g": 7.0,
+      "fiber_g": 6.0,
+      "iron_mg": 1.4,
+      "calcium_mg": 40,
+      "vitamin_c_mg": 12,
+      "potassium_mg": 350,
+      "sodium_mg": 220
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 22,
+    "name": "Cabbage Sabzi",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 95,
+      "protein_g": 3.0,
+      "carbohydrates_g": 12.0,
+      "fat_g": 4.0,
+      "fiber_g": 4.5,
+      "iron_mg": 1.0,
+      "calcium_mg": 55,
+      "vitamin_c_mg": 28,
+      "potassium_mg": 260,
+      "sodium_mg": 180
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 23,
+    "name": "Pumpkin Sabzi",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 105,
+      "protein_g": 2.5,
+      "carbohydrates_g": 15.0,
+      "fat_g": 4.0,
+      "fiber_g": 3.5,
+      "iron_mg": 0.8,
+      "calcium_mg": 35,
+      "vitamin_c_mg": 10,
+      "potassium_mg": 280,
+      "sodium_mg": 170
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 24,
+    "name": "Mushroom Masala",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 165,
+      "protein_g": 6.5,
+      "carbohydrates_g": 12.0,
+      "fat_g": 9.0,
+      "fiber_g": 3.0,
+      "iron_mg": 1.2,
+      "calcium_mg": 25,
+      "vitamin_c_mg": 6,
+      "potassium_mg": 420,
+      "sodium_mg": 260
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 25,
+    "name": "Veg Kofta",
+    "category": "Vegetables",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 260,
+      "protein_g": 7.0,
+      "carbohydrates_g": 22.0,
+      "fat_g": 16.0,
+      "fiber_g": 4.0,
+      "iron_mg": 1.8,
+      "calcium_mg": 60,
+      "vitamin_c_mg": 10,
+      "potassium_mg": 300,
+      "sodium_mg": 340
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 26,
+    "name": "Chicken Curry",
+    "category": "Non-Veg",
+    "veg": false,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 290,
+      "protein_g": 24.0,
+      "carbohydrates_g": 6.0,
+      "fat_g": 18.0,
+      "fiber_g": 1.0,
+      "iron_mg": 1.6,
+      "calcium_mg": 35,
+      "vitamin_c_mg": 4,
+      "potassium_mg": 320,
+      "sodium_mg": 420
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 27,
+    "name": "Chicken Biryani",
+    "category": "Non-Veg",
+    "veg": false,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 250
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 2
+    },
+    "nutrition": {
+      "calories_kcal": 420,
+      "protein_g": 18.0,
+      "carbohydrates_g": 45.0,
+      "fat_g": 18.0,
+      "fiber_g": 2.0,
+      "iron_mg": 1.8,
+      "calcium_mg": 30,
+      "vitamin_c_mg": 3,
+      "potassium_mg": 300,
+      "sodium_mg": 520
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 28,
+    "name": "Egg Curry",
+    "category": "Non-Veg",
+    "veg": false,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 230,
+      "protein_g": 13.0,
+      "carbohydrates_g": 8.0,
+      "fat_g": 16.0,
+      "fiber_g": 1.5,
+      "iron_mg": 2.2,
+      "calcium_mg": 65,
+      "vitamin_c_mg": 4,
+      "potassium_mg": 220,
+      "sodium_mg": 340
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 29,
+    "name": "Omelette",
+    "category": "Non-Veg",
+    "veg": false,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 70
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 130,
+      "protein_g": 9.0,
+      "carbohydrates_g": 1.5,
+      "fat_g": 10.0,
+      "fiber_g": 0,
+      "iron_mg": 1.5,
+      "calcium_mg": 50,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 90,
+      "sodium_mg": 140
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 30,
+    "name": "Boiled Egg",
+    "category": "Non-Veg",
+    "veg": false,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "egg",
+      "weight_g": 50
+    },
+    "quantity_allowed": {
+      "type": "egg",
+      "min": 0,
+      "max": 6
+    },
+    "nutrition": {
+      "calories_kcal": 78,
+      "protein_g": 6.3,
+      "carbohydrates_g": 0.6,
+      "fat_g": 5.3,
+      "fiber_g": 0,
+      "iron_mg": 0.9,
+      "calcium_mg": 28,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 63,
+      "sodium_mg": 62
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 31,
+    "name": "Bread",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "slice",
+      "weight_g": 30
+    },
+    "quantity_allowed": {
+      "type": "slice",
+      "min": 0,
+      "max": 8
+    },
+    "nutrition": {
+      "calories_kcal": 80,
+      "protein_g": 2.7,
+      "carbohydrates_g": 15.0,
+      "fat_g": 1.0,
+      "fiber_g": 1.2,
+      "iron_mg": 0.9,
+      "calcium_mg": 40,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 35,
+      "sodium_mg": 140
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 32,
+    "name": "Butter",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "tbsp",
+      "weight_g": 10
+    },
+    "quantity_allowed": {
+      "type": "tbsp",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 72,
+      "protein_g": 0.1,
+      "carbohydrates_g": 0,
+      "fat_g": 8.1,
+      "fiber_g": 0,
+      "iron_mg": 0,
+      "calcium_mg": 2,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 3,
+      "sodium_mg": 60
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 33,
+    "name": "Jam",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "tbsp",
+      "weight_g": 20
+    },
+    "quantity_allowed": {
+      "type": "tbsp",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 52,
+      "protein_g": 0,
+      "carbohydrates_g": 13.2,
+      "fat_g": 0,
+      "fiber_g": 0.2,
+      "iron_mg": 0.1,
+      "calcium_mg": 3,
+      "vitamin_c_mg": 1,
+      "potassium_mg": 10,
+      "sodium_mg": 8
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 34,
+    "name": "Idli",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 2,
+      "unit": "pieces",
+      "weight_g": 120
+    },
+    "quantity_allowed": {
+      "type": "pieces",
+      "min": 0,
+      "max": 6
+    },
+    "nutrition": {
+      "calories_kcal": 156,
+      "protein_g": 5.0,
+      "carbohydrates_g": 31.0,
+      "fat_g": 1.2,
+      "fiber_g": 2.0,
+      "iron_mg": 0.7,
+      "calcium_mg": 18,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 90,
+      "sodium_mg": 180
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 35,
+    "name": "Plain Dosa",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 100
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 168,
+      "protein_g": 4.2,
+      "carbohydrates_g": 28.0,
+      "fat_g": 4.0,
+      "fiber_g": 1.5,
+      "iron_mg": 0.8,
+      "calcium_mg": 22,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 95,
+      "sodium_mg": 210
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 36,
+    "name": "Masala Dosa",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 320,
+      "protein_g": 7.0,
+      "carbohydrates_g": 45.0,
+      "fat_g": 12.0,
+      "fiber_g": 4.0,
+      "iron_mg": 1.3,
+      "calcium_mg": 35,
+      "vitamin_c_mg": 6,
+      "potassium_mg": 260,
+      "sodium_mg": 420
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 37,
+    "name": "Upma",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 240,
+      "protein_g": 6.0,
+      "carbohydrates_g": 36.0,
+      "fat_g": 8.0,
+      "fiber_g": 3.0,
+      "iron_mg": 1.1,
+      "calcium_mg": 24,
+      "vitamin_c_mg": 5,
+      "potassium_mg": 180,
+      "sodium_mg": 280
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 38,
+    "name": "Poha",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 180
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 220,
+      "protein_g": 5.0,
+      "carbohydrates_g": 38.0,
+      "fat_g": 5.5,
+      "fiber_g": 2.5,
+      "iron_mg": 1.8,
+      "calcium_mg": 20,
+      "vitamin_c_mg": 8,
+      "potassium_mg": 170,
+      "sodium_mg": 260
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 39,
+    "name": "Uttapam",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 150
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 240,
+      "protein_g": 6.0,
+      "carbohydrates_g": 39.0,
+      "fat_g": 6.0,
+      "fiber_g": 3.0,
+      "iron_mg": 1.2,
+      "calcium_mg": 28,
+      "vitamin_c_mg": 5,
+      "potassium_mg": 210,
+      "sodium_mg": 300
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 40,
+    "name": "Chole Bhature",
+    "category": "Breakfast",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "plate",
+      "weight_g": 300
+    },
+    "quantity_allowed": {
+      "type": "plate",
+      "min": 0,
+      "max": 2
+    },
+    "nutrition": {
+      "calories_kcal": 520,
+      "protein_g": 15.0,
+      "carbohydrates_g": 62.0,
+      "fat_g": 22.0,
+      "fiber_g": 8.0,
+      "iron_mg": 3.2,
+      "calcium_mg": 70,
+      "vitamin_c_mg": 5,
+      "potassium_mg": 450,
+      "sodium_mg": 650
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 41,
+    "name": "Milk",
+    "category": "Dairy",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "glass",
+      "weight_g": 200
+    },
+    "quantity_allowed": {
+      "type": "glass",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 134,
+      "protein_g": 6.6,
+      "carbohydrates_g": 9.6,
+      "fat_g": 7.6,
+      "fiber_g": 0,
+      "iron_mg": 0.1,
+      "calcium_mg": 240,
+      "vitamin_c_mg": 2,
+      "potassium_mg": 300,
+      "sodium_mg": 90
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 42,
+    "name": "Curd",
+    "category": "Dairy",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "cup",
+      "weight_g": 100
+    },
+    "quantity_allowed": {
+      "type": "cup",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 61,
+      "protein_g": 3.5,
+      "carbohydrates_g": 4.7,
+      "fat_g": 3.3,
+      "fiber_g": 0,
+      "iron_mg": 0.1,
+      "calcium_mg": 149,
+      "vitamin_c_mg": 1,
+      "potassium_mg": 155,
+      "sodium_mg": 46
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 43,
+    "name": "Raita",
+    "category": "Dairy",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 100
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 72,
+      "protein_g": 3.8,
+      "carbohydrates_g": 5.2,
+      "fat_g": 3.8,
+      "fiber_g": 0.5,
+      "iron_mg": 0.2,
+      "calcium_mg": 140,
+      "vitamin_c_mg": 2,
+      "potassium_mg": 170,
+      "sodium_mg": 80
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 44,
+    "name": "Paneer",
+    "category": "Dairy",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "serving",
+      "weight_g": 50
+    },
+    "quantity_allowed": {
+      "type": "serving",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 133,
+      "protein_g": 9.0,
+      "carbohydrates_g": 1.2,
+      "fat_g": 10.0,
+      "fiber_g": 0,
+      "iron_mg": 0.2,
+      "calcium_mg": 240,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 55,
+      "sodium_mg": 18
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 45,
+    "name": "Lassi",
+    "category": "Dairy",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "glass",
+      "weight_g": 250
+    },
+    "quantity_allowed": {
+      "type": "glass",
+      "min": 0,
+      "max": 2
+    },
+    "nutrition": {
+      "calories_kcal": 180,
+      "protein_g": 6.5,
+      "carbohydrates_g": 22.0,
+      "fat_g": 7.0,
+      "fiber_g": 0,
+      "iron_mg": 0.1,
+      "calcium_mg": 250,
+      "vitamin_c_mg": 2,
+      "potassium_mg": 320,
+      "sodium_mg": 120
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 46,
+    "name": "Banana",
+    "category": "Fruits",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 100
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 5
+    },
+    "nutrition": {
+      "calories_kcal": 89,
+      "protein_g": 1.1,
+      "carbohydrates_g": 22.8,
+      "fat_g": 0.3,
+      "fiber_g": 2.6,
+      "iron_mg": 0.3,
+      "calcium_mg": 5,
+      "vitamin_c_mg": 8.7,
+      "potassium_mg": 358,
+      "sodium_mg": 1
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 47,
+    "name": "Apple",
+    "category": "Fruits",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 150
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 78,
+      "protein_g": 0.4,
+      "carbohydrates_g": 20.6,
+      "fat_g": 0.2,
+      "fiber_g": 3.6,
+      "iron_mg": 0.2,
+      "calcium_mg": 9,
+      "vitamin_c_mg": 6,
+      "potassium_mg": 160,
+      "sodium_mg": 2
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 48,
+    "name": "Orange",
+    "category": "Fruits",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 130
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 62,
+      "protein_g": 1.2,
+      "carbohydrates_g": 15.4,
+      "fat_g": 0.2,
+      "fiber_g": 3.1,
+      "iron_mg": 0.1,
+      "calcium_mg": 52,
+      "vitamin_c_mg": 70,
+      "potassium_mg": 237,
+      "sodium_mg": 0
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 49,
+    "name": "Papaya",
+    "category": "Fruits",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "cup",
+      "weight_g": 140
+    },
+    "quantity_allowed": {
+      "type": "cup",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 60,
+      "protein_g": 0.8,
+      "carbohydrates_g": 15.0,
+      "fat_g": 0.2,
+      "fiber_g": 2.5,
+      "iron_mg": 0.4,
+      "calcium_mg": 28,
+      "vitamin_c_mg": 85,
+      "potassium_mg": 286,
+      "sodium_mg": 8
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 50,
+    "name": "Watermelon",
+    "category": "Fruits",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "cup",
+      "weight_g": 150
+    },
+    "quantity_allowed": {
+      "type": "cup",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 45,
+      "protein_g": 0.9,
+      "carbohydrates_g": 11.5,
+      "fat_g": 0.2,
+      "fiber_g": 0.6,
+      "iron_mg": 0.3,
+      "calcium_mg": 11,
+      "vitamin_c_mg": 12,
+      "potassium_mg": 170,
+      "sodium_mg": 2
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 51,
+    "name": "Guava",
+    "category": "Fruits",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 100
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 68,
+      "protein_g": 2.6,
+      "carbohydrates_g": 14.3,
+      "fat_g": 1.0,
+      "fiber_g": 5.4,
+      "iron_mg": 0.3,
+      "calcium_mg": 18,
+      "vitamin_c_mg": 228,
+      "potassium_mg": 417,
+      "sodium_mg": 2
+    },
+    "source": "Mapped from IFCT 2017"
+  },
+  {
+    "id": 52,
+    "name": "Tea",
+    "category": "Beverages",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "cup",
+      "weight_g": 150
+    },
+    "quantity_allowed": {
+      "type": "cup",
+      "min": 0,
+      "max": 5
+    },
+    "nutrition": {
+      "calories_kcal": 45,
+      "protein_g": 1.0,
+      "carbohydrates_g": 5.5,
+      "fat_g": 2.0,
+      "fiber_g": 0,
+      "iron_mg": 0.1,
+      "calcium_mg": 45,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 70,
+      "sodium_mg": 35
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 53,
+    "name": "Coffee",
+    "category": "Beverages",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "cup",
+      "weight_g": 150
+    },
+    "quantity_allowed": {
+      "type": "cup",
+      "min": 0,
+      "max": 5
+    },
+    "nutrition": {
+      "calories_kcal": 50,
+      "protein_g": 1.2,
+      "carbohydrates_g": 6.0,
+      "fat_g": 2.2,
+      "fiber_g": 0,
+      "iron_mg": 0.1,
+      "calcium_mg": 50,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 80,
+      "sodium_mg": 40
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 54,
+    "name": "Lemon Juice",
+    "category": "Beverages",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "glass",
+      "weight_g": 200
+    },
+    "quantity_allowed": {
+      "type": "glass",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 40,
+      "protein_g": 0.5,
+      "carbohydrates_g": 10.0,
+      "fat_g": 0.1,
+      "fiber_g": 0.3,
+      "iron_mg": 0.2,
+      "calcium_mg": 12,
+      "vitamin_c_mg": 20,
+      "potassium_mg": 90,
+      "sodium_mg": 8
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 55,
+    "name": "Gulab Jamun",
+    "category": "Desserts",
+    "veg": true,
+    "default_serving": {
+      "quantity": 2,
+      "unit": "pieces",
+      "weight_g": 80
+    },
+    "quantity_allowed": {
+      "type": "pieces",
+      "min": 0,
+      "max": 4
+    },
+    "nutrition": {
+      "calories_kcal": 300,
+      "protein_g": 5.0,
+      "carbohydrates_g": 42.0,
+      "fat_g": 12.0,
+      "fiber_g": 0.3,
+      "iron_mg": 0.4,
+      "calcium_mg": 120,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 110,
+      "sodium_mg": 110
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 56,
+    "name": "Kheer",
+    "category": "Desserts",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 150
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 2
+    },
+    "nutrition": {
+      "calories_kcal": 220,
+      "protein_g": 6.0,
+      "carbohydrates_g": 30.0,
+      "fat_g": 8.0,
+      "fiber_g": 0.2,
+      "iron_mg": 0.3,
+      "calcium_mg": 160,
+      "vitamin_c_mg": 1,
+      "potassium_mg": 180,
+      "sodium_mg": 90
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 57,
+    "name": "Ice Cream",
+    "category": "Desserts",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "scoop",
+      "weight_g": 75
+    },
+    "quantity_allowed": {
+      "type": "scoop",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 155,
+      "protein_g": 3.0,
+      "carbohydrates_g": 18.0,
+      "fat_g": 8.5,
+      "fiber_g": 0,
+      "iron_mg": 0.1,
+      "calcium_mg": 100,
+      "vitamin_c_mg": 1,
+      "potassium_mg": 150,
+      "sodium_mg": 55
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 58,
+    "name": "Salad",
+    "category": "Condiments",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "bowl",
+      "weight_g": 100
+    },
+    "quantity_allowed": {
+      "type": "bowl",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 30,
+      "protein_g": 1.5,
+      "carbohydrates_g": 6.0,
+      "fat_g": 0.2,
+      "fiber_g": 2.5,
+      "iron_mg": 0.8,
+      "calcium_mg": 35,
+      "vitamin_c_mg": 18,
+      "potassium_mg": 220,
+      "sodium_mg": 25
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 59,
+    "name": "Papad",
+    "category": "Condiments",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "piece",
+      "weight_g": 15
+    },
+    "quantity_allowed": {
+      "type": "piece",
+      "min": 0,
+      "max": 5
+    },
+    "nutrition": {
+      "calories_kcal": 55,
+      "protein_g": 3.0,
+      "carbohydrates_g": 8.0,
+      "fat_g": 1.0,
+      "fiber_g": 0.8,
+      "iron_mg": 0.6,
+      "calcium_mg": 18,
+      "vitamin_c_mg": 0,
+      "potassium_mg": 45,
+      "sodium_mg": 180
+    },
+    "source": "Closest IFCT mapping"
+  },
+  {
+    "id": 60,
+    "name": "Pickle",
+    "category": "Condiments",
+    "veg": true,
+    "default_serving": {
+      "quantity": 1,
+      "unit": "tbsp",
+      "weight_g": 15
+    },
+    "quantity_allowed": {
+      "type": "tbsp",
+      "min": 0,
+      "max": 3
+    },
+    "nutrition": {
+      "calories_kcal": 20,
+      "protein_g": 0.3,
+      "carbohydrates_g": 2.5,
+      "fat_g": 1.0,
+      "fiber_g": 0.5,
+      "iron_mg": 0.2,
+      "calcium_mg": 10,
+      "vitamin_c_mg": 2,
+      "potassium_mg": 35,
+      "sodium_mg": 600
+    },
+    "source": "Closest IFCT mapping"
+  }
+]
