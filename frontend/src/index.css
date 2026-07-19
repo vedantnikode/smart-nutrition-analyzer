@@ -1,1 +1,55 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color: white;
+  overflow-x: hidden;
+
+  background:
+    radial-gradient(circle at top right, rgba(34,197,94,0.12), transparent 35%),
+    radial-gradient(circle at bottom left, rgba(16,185,129,0.08), transparent 35%),
+    linear-gradient(180deg, #020617 0%, #081018 50%, #020617 100%);
+}
+
+*{
+  box-sizing:border-box;
+}
+
+::selection{
+  background:#22c55e;
+  color:white;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-track{
+  background:#071018;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#1fae5b;
+  border-radius:999px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:#22c55e;
+}

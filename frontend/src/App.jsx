@@ -4,12 +4,14 @@ import Navbar from "./components/layout/Navbar";
 
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
-import Dashboard from "./pages/Dashboard";
 import About from "./pages/About";
+import Dashboard from "./pages/Dashboard";
+import Developer from "./pages/Developer";
 
 function App() {
   return (
-    <BrowserRouter>
+  <BrowserRouter>
+    <div className="min-h-screen">
       <Navbar />
 
       <Routes>
@@ -17,8 +19,11 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/about" element={<About />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/developer" element={<Developer />} />
       </Routes>
-    </BrowserRouter>
+    </div>
+  </BrowserRouter>
   );
 }
 

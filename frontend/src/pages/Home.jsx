@@ -1,9 +1,19 @@
+import Footer from "../components/layout/Footer";
+import Hero from "../components/home/Hero";
+import Features from "../components/home/Features";
+import DataSources from "../components/home/DataSources";
+import DeveloperCTA from "../components/DeveloperCTA";
+import { useNavigate } from "react-router-dom";
+
 export default function Home() {
+  const navigate = useNavigate(); 
   return (
-    <div className="p-10">
-      <h1 className="text-4xl font-bold">
-        Welcome to Smart Nutrition Analyzer
-      </h1>
-    </div>
+    <main className="relative min-h-screen overflow-hidden">
+      <Hero />
+      <Features />
+      <DataSources />
+      <DeveloperCTA />
+      <Footer />
+    </main>
   );
 }
