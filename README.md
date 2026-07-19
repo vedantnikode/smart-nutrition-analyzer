@@ -174,11 +174,29 @@ http://localhost:5173
 ---
 
 # 📷 Screenshots
->
-> - Home Page
-> - Daily Diet Planner
-> - Nutrition Dashboard
-> - About Page
+
+
+![Home Page](Screenshot%202026-07-19%20204039.png)
+
+---
+
+![Daily Diet Planner](Screenshot%202026-07-19%20204052.png)
+
+---
+
+
+![College Mess Menu](Screenshot%202026-07-19%20204113.png)
+
+---
+
+
+![Nutrition Dashboard](Screenshot%202026-07-19%20204122.png)
+
+---
+
+
+![About the Project](Screenshot%202026-07-19%20204136.png)
+
 
 ---
 
