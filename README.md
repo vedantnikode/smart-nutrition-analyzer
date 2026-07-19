@@ -176,26 +176,26 @@ http://localhost:5173
 # 📷 Screenshots
 
 
-![Home Page](Screenshot%202026-07-19%20204039.png)
+![Home Page](assets/Screenshot%202026-07-19%20204039.png)
 
 ---
 
-![Daily Diet Planner](Screenshot%202026-07-19%20204052.png)
-
----
-
-
-![College Mess Menu](Screenshot%202026-07-19%20204113.png)
+![Daily Diet Planner](assets/Screenshot%202026-07-19%20204052.png)
 
 ---
 
 
-![Nutrition Dashboard](Screenshot%202026-07-19%20204122.png)
+![College Mess Menu](assets/Screenshot%202026-07-19%20204113.png)
 
 ---
 
 
-![About the Project](Screenshot%202026-07-19%20204136.png)
+![Nutrition Dashboard](assets/Screenshot%202026-07-19%20204122.png)
+
+---
+
+
+![About the Project](assets/Screenshot%202026-07-19%20204136.png)
 
 
 ---
