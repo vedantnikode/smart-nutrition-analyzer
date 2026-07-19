@@ -1,37 +1,215 @@
 # 🥗 Smart Nutrition Analyzer
 
-A full-stack web application that analyzes meals served in the IIT Mandi mess and provides nutritional insights based on IFCT 2017 data.
+A full-stack web application that helps users analyze their daily diet using trusted nutritional data. Users can build their diet from the college mess menu or search from a food database, then receive a complete nutrition report, health score, and personalized dietary recommendations.
 
-## 🚀 Features
+---
 
-- 🍽 View today's mess menu
-- 📊 Nutrition analysis
-- 💚 Health score calculation
-- 📈 RDA percentage comparison
-- 🥦 Personalized recommendations
+## 🌟 Features
 
-## 🛠 Tech Stack
+### 🍽️ Daily Diet Planner
+- Select a weekday
+- View the college mess menu
+- Add breakfast, lunch, and dinner items
+- Search and add outside foods from the food database
 
-### Frontend
-- React
+### 📊 Nutrition Analysis
+- Total Calories
+- Protein
+- Carbohydrates
+- Fat
+- Fiber
+- Iron
+- Calcium
+- Vitamin C
+
+### ❤️ Health Score
+- Overall Nutrition Score
+- Health Grade
+- Personalized dietary recommendations
+- Daily intake comparison
+
+### 📱 Modern User Interface
+- Responsive design
+- Clean and intuitive interface
+- Fast navigation
+- Interactive food selection
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+- React.js
 - Vite
 - Tailwind CSS
 - React Router
-- Recharts
+- Axios
 
-### Backend
+## Backend
 - FastAPI
 - Python
-- JSON data storage
+- Pydantic
 
-## 📂 Project Structure
+---
 
-backend/
-frontend/
+# 📂 Project Structure
 
-## ▶️ Run Locally
+```
+Smart-Nutrition-Analyzer/
+│
+├── backend/
+│   ├── main.py
+│   ├── routes/
+│   ├── models/
+│   ├── data/
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+```
 
-### Backend
+---
+
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/vedantnikode/Smart-Nutrition-Analyzer.git
+cd Smart-Nutrition-Analyzer
+```
+
+---
+
+## Backend
+
 ```bash
 cd backend
-python -m uvicorn main:app --reload
+
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+
+Backend runs at
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## Frontend
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+Frontend runs at
+
+```
+http://localhost:5173
+```
+
+---
+
+# 📸 Application Flow
+
+🏠 Home
+
+↓
+
+🍽️ Daily Diet Planner
+
+↓
+
+📅 Select Day
+
+↓
+
+🍳 Add Breakfast
+
+↓
+
+🍛 Add Lunch
+
+↓
+
+🌙 Add Dinner
+
+↓
+
+📊 Nutrition Dashboard
+
+↓
+
+❤️ Health Score & Recommendations
+
+---
+
+# 🎯 Use Cases
+
+- Analyze daily nutritional intake
+- Evaluate college mess meals
+- Compare nutrition across food choices
+- Promote healthier eating habits
+
+---
+
+# 📷 Screenshots
+>
+> - Home Page
+> - Daily Diet Planner
+> - Nutrition Dashboard
+> - About Page
+
+---
+
+# 🔮 Future Improvements
+
+- User authentication
+- Meal history
+- Weekly nutrition analytics
+- Personalized diet plans
+- Food image recognition
+- Export nutrition reports as PDF
+
+---
+
+# 👨‍💻 Developer
+
+**Vedant Nikode**
+
+Bioengineering Undergraduate  
+Indian Institute of Technology, Mandi
+
+📧 Email: *vedantnikode1@gmail.com*
+
+📷 Instagram: *(https://www.instagram.com/vedant._.2107)*
+
+---
+
+# 📄 License
+
+This project was developed for educational and hackathon purposes.
+
+---
+
+## ⭐ If you like this project, consider giving it a star!
