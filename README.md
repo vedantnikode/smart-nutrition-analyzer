@@ -3,7 +3,14 @@
 A full-stack web application that helps users analyze their daily diet using trusted nutritional data. Users can build their diet from the college mess menu or search from a food database, then receive a complete nutrition report, health score, and personalized dietary recommendations.
 
 ---
+## 🌐 Live Demo
 
+- 🚀 **Frontend:** [smart-nutrition-analyzer.vercel.app](https://smart-nutrition-analyzer.vercel.app)
+- ⚙️ **Backend API:** [smart-nutrition-analyzer-backend.onrender.com](https://smart-nutrition-analyzer-backend.onrender.com)
+- 📖 **API Documentation:** [Swagger Docs](https://smart-nutrition-analyzer-backend.onrender.com/docs)
+
+> **Note:** The backend is hosted on Render's free tier. If the API has been inactive, the first request may take **30–60 seconds** to wake up.
+---
 ## 🌟 Features
 
 ### 🍽️ Daily Diet Planner
